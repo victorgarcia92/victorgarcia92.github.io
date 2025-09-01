@@ -1,9 +1,19 @@
 {
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
   "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.2",
+    "gh-pages": "^6.3.0",
     "vite": "^7.1.3"
   },
   "dependencies": {
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
-  }
+  },
+  "homepage": "https://github.com/victorgarcia92/victorgarcia92.github.io"
 }
