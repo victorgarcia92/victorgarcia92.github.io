@@ -5,43 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Víctor García | Desarrollador web Freelance</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Geologica:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <style>        
+        .geologica-font {
+            font-family: "Geologica", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+            font-variation-settings:
+                "slnt" 0,
+                "CRSV" 0,
+                "SHRP" 0;
+        }
+        .figtree-font {
+            font-family: "Figtree", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 300;
+            font-style: normal;
+        }
+    </style>
 </head>
 <body>
-    <header class="flex items-center h-[75px] bg-blue-900 text-white">
-        <div class="text-2xl">
-            Victor Garcia            
-        </div>
-    </header>
-    <main>        
-        <div id="cover" class="flex items-end justify-start h-[500px] bg-sky-100 text-center text-4xl bg-[url(images/cover.png)] bg-cover bg-top">
-            <div class="h-40 w-100 text-2xl bg-cyan-500">
-                <h1>Creamos tu sitio web para tu negocio</h1>
-            </div>
-        </div>
-        <section class="text-center">
-            <h2 class="text-4xl">Sobre mi</h2>
-            <div>Soy un desarrollador web Freelance. Me dedico a desarrollar sitios web para pequeñas y medianas empresas. Estudie en la Universidad Nacional de La Matanza e inverti años al aprendizaje autodidacta que me permitieron mejorar mis habilidades de programador y aumentar la calidad de mis productos. </div>
-        </section>
-        <section class="text-center">
-            <h2 class="text-4xl">Porque necesitas un sitio web</h2>
-            <div>Es <b>fundamental</b> para tu negocio, la mayoria de las personas en el mundo cuentan con un telefono celular lo cual los convierte en un potencial cliente para tu negocio. </div>
-            <div>Un sitio web que no funcione o transmita una buena apariencia espanta a tus potenciales clientes</div>            
-        </section>
-        <section class="text-center">
-            <h2 class="text-4xl">Precios</h2>
-            <div>Sitio web estatico: 150.000 - 5 secciones</div>
-            <div>Sitio web dinamico: 300.000 - 5 secciones + ¡Panel de administración para que puedas administrar tu sitio tu mismo!</div>
-            <small>Si necesitas mas de 5 secciones el precio puede variar</small>
-        </section>
-        <section class="text-center">
-            <h2 class="text-4xl">Proyectos realizados</h2>
-        </section>
-        <section class="text-center">
-            <h2 class="text-4xl">Contactame</h2>
-            ¡Si quieres crear o mejorar tu presencia online de tu negocio no dudes en contactarme!
-        </section>
-    </main>
-    <footer>
-    </footer>
+    <div id="root"></div>
+    <script type="module" src="src/main.jsx"></script>
 </body>
 </html>
